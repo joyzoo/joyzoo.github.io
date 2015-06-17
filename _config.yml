@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Bug is BaGuaing ~
 subtitle:
 description:
-author: John Doe
+author: Bug
 language:
 timezone:
 
@@ -68,4 +68,5 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://joyzoo@github.com/joyzoo/joyzoo.github.io.git
