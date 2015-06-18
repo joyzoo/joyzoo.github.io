@@ -21,7 +21,3 @@ function isMobile () {
 function escapeSelector (selector) {
   return selector.replace(/[!"$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, "\\$&")
 }
-
-function isMist () {
-  return CONFIG.scheme === 'Mist';
-}
