@@ -61,3 +61,5 @@ images: images
 
 # Theme version
 version: 0.4.3
+
+disqus_shortname: joyzoo
