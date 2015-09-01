@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
   font-size: 16px;
   line-height: 1.8;
   color: #555;
@@ -211,7 +211,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1;
-  font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
+  font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
 }
 h1 {
   font-size: 26px;
@@ -792,7 +792,7 @@ td {
 .post .gist .gist-file .gist-meta {
   background: #f7f7f7;
   color: #8e908c;
-  font: 13px Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font: 13px "PingFang SC", "Lantinghei SC", "Microsoft Yahei", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
@@ -867,6 +867,14 @@ body {
 body {
   background: url("/images/texture-yellow-icons.png") repeat;
 }
+body,
+input,
+textarea,
+select,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .container {
   position: relative;
   min-height: 100%;
@@ -923,7 +931,6 @@ body {
   padding: 0 25px;
   color: #999;
   border-bottom: none;
-  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 .logo {
   display: inline-block;
@@ -999,9 +1006,10 @@ body {
   color: #999;
 }
 .post {
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.8);
   padding: 30px;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .post:last-child .post-eof.post-eof.post-eof {
   display: none;
